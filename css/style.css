@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: black;
+}
+
+.btn-custom {
+  border: solid 1px white;
+  border-radius: 2%;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-social i {
+  padding: 10px;
+  font-size: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a:hover, i:hover {
+  color: #ffc861;
+}
+
+.apple-logo {
+  font-size: 34px;
+  padding-top: 10px;
+}
+
+.apple-logo:hover {
+  color: white;
+}
+
+.form-margin {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */

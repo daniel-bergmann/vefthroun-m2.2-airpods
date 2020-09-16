@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+// Sassy button variables
+$primaryBtn: solid 1px white;
+$primaryBtnBorder: 2%;
+
+body {
+    background: black;
+}
+
+.btn-custom {
+    border: $primaryBtn;
+    border-radius: $primaryBtnBorder;
+}
+
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+ 
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    i {
+        padding: 10px;
+        font-size: 25px;
+        justify-content: center;
+    }
+}
+
+a, i {
+    &:hover {
+        color: rgb(255, 200, 97);
+    }
+}
+
+.apple-logo {
+    font-size: 34px;
+    padding-top: 10px;
+    &:hover{
+        color: white;
+    }
+}
+
+.form-margin {
+    margin-top: 20px;
+}
+    
+
+
